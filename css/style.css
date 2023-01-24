@@ -286,7 +286,9 @@ header .follow a:hover{
 }
 
 /*projects section................................................*/
-
+.projects{
+    margin-bottom: 200px;
+}
 .projects .box-container{
     display: flex;
     flex-wrap: wrap;
@@ -591,10 +593,10 @@ header .follow a:hover{
 
 
      
-@media screen and (max-width:720px) {
+@media screen and (max-width:780px) {
     .projects .box-container{
         display: flex;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
         gap:10px;
        
         margin: auto;
